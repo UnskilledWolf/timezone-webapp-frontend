@@ -1,11 +1,11 @@
 import TestComponent from '../components/TestComponent'
 
-export default function Example()
+export default function Test()
 {
     return (
-        <div>
-            Test Page
+        <main id="test">
+            <h1>Test Page</h1>
             <TestComponent />
-        </div>
+        </main>
     )
 }
