@@ -1,3 +1,5 @@
+// Defines globally used styles, especially those for basic HTML elements (text, buttons, etc.)
+
 @use "./globals.scss";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Emoji:wght@300..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
@@ -5,14 +7,53 @@
   color: globals.$text;
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
-  line-height: 1.5rem;
-
-  background-color: globals.$background;
-  height: 100%;
-  margin: 0;
+  line-height: 1.75rem;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: globals.$background;
+  height: 100%;
+  margin: 0;
+}
+
+//TODO adjust main to fit with the header/footer once they are added
+main {
+  margin: 0.5rem 1rem;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0.5rem 0;
+}
+
+.container {
+  background-color: globals.$secondary-200;
+  border: solid 3px globals.$secondary-300;
+  box-shadow: globals.$shadow;
+
+  border-radius: globals.$corner-rounding-large;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+
+  &.secondary {
+    background-color: globals.$primary-100;
+    border-color: globals.$primary-200;
+  }
+
+  &.accent {
+    background-color: globals.$accent-100;
+    border-color: globals.$accent-200;
+  }
+
+  &.secondary,
+  &.accent {
+    padding: 0.25rem 0.5rem;
+  }
 }
