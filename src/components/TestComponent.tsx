@@ -17,7 +17,7 @@ export default function TestComponent() {
         </p>
         <button>Button</button>
         <button className="primary">Primary Button</button>
-        <button className="secondary">Secondary Button</button>
+        <button className="accent">Accent Button</button>
         <form>
           <input type="text" name="" id="" />
           <input type="checkbox" name="" id="" />
@@ -25,8 +25,8 @@ export default function TestComponent() {
           <input type="submit" value="Form Submit" />
         </form>
       </div>
-      <div className="container accent">
-        <h2>Accent Container</h2>
+      <div className="container secondary">
+        <h2>Secondary Container</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam
           quasi doloribus expedita corrupti. Provident praesentium culpa
@@ -34,8 +34,8 @@ export default function TestComponent() {
           ex provident aut adipisci repellendus?
         </p>
       </div>
-      <div className="container secondary">
-        <h2>Secondary Container</h2>
+      <div className="container accent">
+        <h2>Accent Container</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam
           quasi doloribus expedita corrupti. Provident praesentium culpa

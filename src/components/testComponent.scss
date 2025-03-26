@@ -1,1 +1,10 @@
 @use "../globals.scss";
+
+.container {
+  button {
+    margin: 0.5rem;
+  }
+  input {
+    display: block;
+  }
+}
