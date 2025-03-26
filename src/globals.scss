@@ -1,12 +1,6 @@
 // Defines globally used variables
 @use "sass:color";
 
-$text: #040316;
-$background: #fbfbfe;
-$primary: #2f27ce;
-$secondary: #dddbff;
-$accent: #443dff;
-
 $red: #ff3d3d;
 $yellow: #ffdf3d;
 $green: #3dff4d;
@@ -17,34 +11,3 @@ $corner-rounding-small: 5px;
 $easing: cubic-bezier(0.25, 1, 0.5, 1);
 
 $shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.1);
-
-// Shades
-$primary-100: color.scale($primary, $lightness: 90%);
-$primary-200: color.scale($primary, $lightness: 80%);
-$primary-300: color.scale($primary, $lightness: 70%);
-$primary-400: color.scale($primary, $lightness: 60%);
-$primary-500: $primary;
-$primary-600: color.scale($primary, $lightness: 40%);
-$primary-700: color.scale($primary, $lightness: 30%);
-$primary-800: color.scale($primary, $lightness: 20%);
-$primary-900: color.scale($primary, $lightness: 10%);
-
-$secondary-100: color.scale($secondary, $lightness: 90%);
-$secondary-200: color.scale($secondary, $lightness: 80%);
-$secondary-300: color.scale($secondary, $lightness: 70%);
-$secondary-400: color.scale($secondary, $lightness: 60%);
-$secondary-500: $secondary;
-$secondary-600: color.scale($secondary, $lightness: 40%);
-$secondary-700: color.scale($secondary, $lightness: 30%);
-$secondary-800: color.scale($secondary, $lightness: 20%);
-$secondary-900: color.scale($secondary, $lightness: 10%);
-
-$accent-100: color.scale($accent, $lightness: 90%);
-$accent-200: color.scale($accent, $lightness: 80%);
-$accent-300: color.scale($accent, $lightness: 70%);
-$accent-400: color.scale($accent, $lightness: 60%);
-$accent-500: $accent;
-$accent-600: color.scale($accent, $lightness: 40%);
-$accent-700: color.scale($accent, $lightness: 30%);
-$accent-800: color.scale($accent, $lightness: 20%);
-$accent-900: color.scale($accent, $lightness: 10%);

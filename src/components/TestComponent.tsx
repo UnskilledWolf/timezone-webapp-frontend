@@ -1,3 +1,5 @@
+import "./testComponent.scss"
+
 export default function TestComponent() {
   return (
     <div className="test-component">
