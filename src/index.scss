@@ -22,6 +22,11 @@ body {
   margin: 0;
 }
 
+input:focus,
+button:focus {
+  outline: 2px solid var(--accent-200);
+}
+
 //TODO adjust main to fit with the header/footer once they are added
 main {
   margin: 0.5rem 1rem;
@@ -32,6 +37,14 @@ h2,
 h3,
 p {
   margin: 0.5rem 0;
+}
+
+a {
+  color: var(--accent-400);
+}
+
+a:visited {
+  color: var(--accent-300);
 }
 
 .container {
@@ -102,5 +115,61 @@ input[type="submit"] {
     &:active {
       background-color: var(--accent-700);
     }
+  }
+}
+
+input[type="text"] {
+  background-color: var(--secondary-100);
+  border: none;
+  border-radius: globals.$corner-rounding-small;
+  border-bottom: 2px solid var(--primary-500);
+  padding: 0.5rem 1rem 0.25rem 1rem;
+
+  transition: background-color 0.3s globals.$easing;
+
+  &:hover {
+    background-color: var(--secondary-200);
+  }
+
+  &:active {
+    background-color: var(--secondary-300);
+  }
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  margin: 0;
+
+  width: 1.15rem;
+  height: 1.15rem;
+  border: 2px solid var(--primary-500);
+  border-radius: globals.$corner-rounding-small;
+
+  transition: background-color 0.3s globals.$easing;
+
+  &:hover,
+  &:checked {
+    background-color: var(--secondary-200);
+  }
+
+  &:active {
+    background-color: var(--secondary-300);
+  }
+
+  display: grid;
+
+  &::after {
+    content: " ";
+    place-self: center;
+    width: 0rem;
+    height: 0rem;
+
+    background-color: var(--accent-400);
+    border-radius: globals.$corner-rounding-small;
+  }
+
+  &:checked::after {
+    width: 0.5rem;
+    height: 0.5rem;
   }
 }
