@@ -26,25 +26,24 @@ export default function TestComponent() {
           <input type="button" value="Form Button" />
           <input type="submit" value="Form Submit" />
         </form>
-
-        <div className="container secondary">
-          <h2>Secondary Container</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam
-            quasi doloribus expedita corrupti. Provident praesentium culpa
-            voluptate debitis ipsam quas suscipit sapiente aliquam nostrum!
-            Minima ex provident aut adipisci repellendus?
-          </p>
-        </div>
-        <div className="container accent">
-          <h2>Accent Container</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam
-            quasi doloribus expedita corrupti. Provident praesentium culpa
-            voluptate debitis ipsam quas suscipit sapiente aliquam nostrum!
-            Minima ex provident aut adipisci repellendus?
-          </p>
-        </div>
+      </div>
+      <div className="container secondary">
+        <h2>Secondary Container</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam
+          quasi doloribus expedita corrupti. Provident praesentium culpa
+          voluptate debitis ipsam quas suscipit sapiente aliquam nostrum! Minima
+          ex provident aut adipisci repellendus?
+        </p>
+      </div>
+      <div className="container accent">
+        <h2>Accent Container</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam
+          quasi doloribus expedita corrupti. Provident praesentium culpa
+          voluptate debitis ipsam quas suscipit sapiente aliquam nostrum! Minima
+          ex provident aut adipisci repellendus?
+        </p>
       </div>
     </div>
   )

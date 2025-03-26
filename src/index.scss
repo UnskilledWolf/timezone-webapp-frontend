@@ -29,14 +29,14 @@ button:focus {
 
 //TODO adjust main to fit with the header/footer once they are added
 main {
-  margin: 0.5rem 1rem;
+  margin: globals.$space-xs globals.$space-md;
 }
 
 h1,
 h2,
 h3,
 p {
-  margin: 0.5rem 0;
+  margin: globals.$space-md 0;
 }
 
 a {
@@ -53,7 +53,7 @@ a:visited {
   box-shadow: globals.$shadow;
 
   border-radius: globals.$corner-rounding-large;
-  padding: 0.5rem 1rem;
+  padding: globals.$space-xs globals.$space-md;
   margin: 1rem 0;
 
   &.secondary {
@@ -68,7 +68,7 @@ a:visited {
 
   &.secondary,
   &.accent {
-    padding: 0.25rem 0.5rem;
+    padding: globals.$space-xxs globals.$space-xs;
   }
 }
 
@@ -78,7 +78,7 @@ input[type="submit"] {
   background-color: var(--secondary-100);
   border: none;
   border-radius: globals.$corner-rounding-small;
-  padding: 0.5rem 1rem;
+  padding: globals.$space-xs globals.$space-md;
 
   transition: background-color 0.3s globals.$easing;
 
@@ -123,7 +123,8 @@ input[type="text"] {
   border: none;
   border-radius: globals.$corner-rounding-small;
   border-bottom: 2px solid var(--primary-500);
-  padding: 0.5rem 1rem 0.25rem 1rem;
+  padding: globals.$space-xs globals.$space-md globals.$space-xxs
+    globals.$space-md;
 
   transition: background-color 0.3s globals.$easing;
 
