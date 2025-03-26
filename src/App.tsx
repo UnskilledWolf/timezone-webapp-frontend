@@ -1,5 +1,5 @@
 import Test from './pages/Test'
-import Nav from './Nav'
+import Nav from './components/Nav'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 
