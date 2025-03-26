@@ -1,13 +1,13 @@
-@import "./globals.scss";
+@use "./globals.scss";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Emoji:wght@300..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
-  color: $text;
+  color: globals.$text;
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
   line-height: 1.5rem;
 
-  background-color: $background;
+  background-color: globals.$background;
   height: 100%;
   margin: 0;
 

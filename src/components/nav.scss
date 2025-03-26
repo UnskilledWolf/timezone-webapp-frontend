@@ -1,10 +1,13 @@
-@import "../globals.scss";
+@use "../globals.scss";
 
 nav {
     display: flex;
     gap: 1rem;
 
-    a.active {
-        font-weight: bold;
+    a {
+        color: globals.$accent;
+        &.active {
+            font-weight: bold;
+        }
     }
 }
