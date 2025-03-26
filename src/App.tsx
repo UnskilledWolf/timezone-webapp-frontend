@@ -1,10 +1,9 @@
-import Test from './pages/Test'
-import Nav from './components/Nav'
-import { Route, Routes } from 'react-router-dom'
-import Home from './pages/Home'
+import Test from "./pages/Test"
+import Nav from "./components/Nav"
+import { Route, Routes } from "react-router-dom"
+import Home from "./pages/Home"
 
-function App()
-{
+function App() {
   // TODO fill in any global app information that we may need here. Potentially use contexts or an additional library.
 
   return (
